@@ -38,7 +38,7 @@ namespace UI
 
         private static void OnClickQuit(ClickEvent evt)
         {
-            Debug.Log("User clicked Quit");
+            Application.Quit();
         }
 
         private void OnDisable()
