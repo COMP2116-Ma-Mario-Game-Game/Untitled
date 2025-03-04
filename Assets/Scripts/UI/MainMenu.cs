@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.UIElements;
 
 namespace UI
@@ -8,6 +9,8 @@ namespace UI
         private Button _btnNewGame;
         private Button _btnRankingBoard;
         private Button _btnQuit;
+
+        [SerializeField] private AssetReference newGameScene;
 
         private void OnEnable()
         {
@@ -23,9 +26,9 @@ namespace UI
             _btnQuit.RegisterCallback<ClickEvent>(OnClickQuit);
         }
 
-        private static void OnClickNewGame(ClickEvent evt)
+        private void OnClickNewGame(ClickEvent evt)
         {
-            Debug.Log("User clicked New Game");
+            newGameScene.LoadSceneAsync();
         }
 
         private static void OnClickRankingBoard(ClickEvent evt)

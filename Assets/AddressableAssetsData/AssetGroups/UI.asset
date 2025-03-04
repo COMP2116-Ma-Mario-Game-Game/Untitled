@@ -12,11 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
   m_Name: UI
   m_EditorClassIdentifier: 
-  m_GroupName: Packed Assets
+  m_GroupName: UI
   m_Data:
     m_SerializedData: []
   m_GUID: 0f5acaa45440bcc4fadf34f3f2192ba0
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: fe692d6fdfaf96040be360a733d0277d
+    m_Address: Assets/Addressables/UI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: a5ccbe5d665072546937a1ac42bfeb67, type: 2}
   m_SchemaSet:
