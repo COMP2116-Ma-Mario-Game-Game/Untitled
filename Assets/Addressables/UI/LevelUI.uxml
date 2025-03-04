@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Timer" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Timer" parse-escape-sequences="true" display-tooltip-when-elided="true" name="lbTimer" style="width: 15%; font-size: 72px;" />
+        <ui:Label tabindex="-1" text="00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="lbTimerValue" style="font-size: 72px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Score" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Score" parse-escape-sequences="true" display-tooltip-when-elided="true" name="lbScore" style="font-size: 72px;" />
+        <ui:Label tabindex="-1" text="0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="lbScoreValue" style="font-size: 72px;" />
+    </ui:VisualElement>
+</ui:UXML>
